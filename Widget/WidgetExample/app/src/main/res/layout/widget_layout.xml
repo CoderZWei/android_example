@@ -12,8 +12,13 @@
 
         />
     <Button
-        android:id="@+id/mBtn"
+        android:id="@+id/mBtn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"/>
+        android:text="Button1"/>
+    <Button
+        android:id="@+id/mBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button2"/>
 </LinearLayout>
