@@ -6,7 +6,5 @@ Okhttp：通过Okhttp实现简单的get、post请求，以及实现文件下载�
 
 Widget：Widget小部件的基本使用
 
-- ![avatar](/img/Widget.jpg)
-
 
 
