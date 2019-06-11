@@ -8,9 +8,9 @@ import android.widget.ImageView;
 public class ImageAsyncTask extends AsyncTask<String,Void,Bitmap> {
     private String mImageUrl;
     private ImageView mImageView;
-    private ImageLoader mImageLoader;
-    public void setImageLoader(ImageLoader imageLoader){
-        this.mImageLoader=imageLoader;
+    private static ImageLoader mImageLoader;
+    public static void setImageLoader(ImageLoader imageLoader){
+        mImageLoader=imageLoader;
     }
     public void setImageView(ImageView mImageView){
         this.mImageView=mImageView;
