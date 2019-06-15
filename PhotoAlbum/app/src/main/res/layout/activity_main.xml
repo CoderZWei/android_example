@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <com.example.zw.photoalbum.MyGridView
+   <!--<com.example.zw.photoalbum.MyGridView-->
+       <!--android:id="@+id/gridView_content"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:numColumns="3">-->
+
+   <!--</com.example.zw.photoalbum.MyGridView>-->
+   <GridView
        android:id="@+id/gridView_content"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:numColumns="3">
 
-   </com.example.zw.photoalbum.MyGridView>
+   </GridView>
 
 </android.support.constraint.ConstraintLayout>

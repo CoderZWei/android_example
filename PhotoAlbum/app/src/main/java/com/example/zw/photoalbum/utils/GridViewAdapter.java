@@ -8,27 +8,30 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.zw.photoalbum.MyGridView;
 import com.example.zw.photoalbum.R;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class GridViewAdapter extends ArrayAdapter<String> implements AbsListView.OnScrollListener {
     private Set<ImageAsyncTask>taskCollection;
-    private MyGridView mGridView;
+    private GridView mGridView;
     private ImageLoader mImageLoader;
     //第一张可见图片的下标
     private int mFirstVisibleItem;
     //一屏有多少张图片可见
     private int mVisibleItemCount;
     private boolean isFirstEnter=true;
-    public GridViewAdapter(Context context, int resource, String[] objects,MyGridView gridView) {
+    public GridViewAdapter(Context context, int resource, String[] objects,GridView gridView) {
         super(context, resource, objects);
         this.mGridView=gridView;
         this.mImageLoader=new ImageLoader();
+        this.taskCollection=new HashSet<ImageAsyncTask>();
         ImageAsyncTask.setImageLoader(this.mImageLoader);
         mGridView.setOnScrollListener(this);
     }
