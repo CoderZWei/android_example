@@ -6,5 +6,7 @@ Okhttp：通过Okhttp实现简单的get、post请求,以及实现文件下载功
 
 Widget：Widget小部件的基本使用,实现点击跳转到对应activity和点击发送广播消息
 
+AlarmManager：通过AlarmManager实现定时操作(BroadcastReceiver定时接收消息)
+
 
 
