@@ -8,5 +8,5 @@ Widget：Widget小部件的基本使用,实现点击跳转到对应activity和�
 
 AlarmManager：通过AlarmManager实现定时操作(BroadcastReceiver定时接收消息)
 
-
+WallPaper：通过WallPaper实现动态壁纸效果，壁纸内容为手机相机预览内容
 
