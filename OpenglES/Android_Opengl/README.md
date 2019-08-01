@@ -1,0 +1,1 @@
+通过GLSurfaceView显示三角形
