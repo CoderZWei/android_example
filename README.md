@@ -10,5 +10,7 @@ AlarmManager：通过AlarmManager实现定时操作(BroadcastReceiver定时接�
 
 WallPaper：通过WallPaper实现动态壁纸效果，壁纸内容为手机相机预览内容
 
-BubbleView：自定义view(气泡)
+自定义view：
+
+1）BubbleView：自定义气泡
 
