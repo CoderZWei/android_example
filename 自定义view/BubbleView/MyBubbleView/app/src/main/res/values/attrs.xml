@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleView">
+        <attr name="background_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="stroke_width" format="float"/>
+        <attr name="text_content" format="string"/>
+        <attr name="width_length" format="dimension"/>
+        <attr name="height_length" format="dimension"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="is_arrow_up" format="boolean"/>
+        <attr name="padding_in" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CircleProgress">
+        <attr name="foreground_color" format="color"/>
+        <attr name="background_color1" format="color"/>
+        <attr name="text_color1" format="color"/>
+        <attr name="stroke_width1" format="dimension"/>
+        <attr name="enum_attr" format="enum">
+            <enum name="attr_1" value="0"/>
+            <enum name="attr_2" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
