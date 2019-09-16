@@ -102,7 +102,6 @@ public class BubbleView extends View {
             mBackgroundColor = typedArray.getColor(R.styleable.BubbleView_background_color, getResources().getColor(R.color.white));
             mTextColor = typedArray.getColor(R.styleable.BubbleView_text_color, getResources().getColor(R.color.black));
             mBorderWidth = typedArray.getDimension(R.styleable.BubbleView_stroke_width, getResources().getDimension(R.dimen.stroke_width));
-            Log.d("zw_debug",String.valueOf(mBorderWidth));
             mText = typedArray.getString(R.styleable.BubbleView_text_content);
             mTextSize = typedArray.getDimension(R.styleable.BubbleView_text_size, getResources().getDimension(R.dimen.default_text_size));
             mIsArrowUp = typedArray.getBoolean(R.styleable.BubbleView_is_arrow_up, true);

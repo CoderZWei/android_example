@@ -8,7 +8,7 @@
 
    <com.example.mybubbleview.BubbleView
        android:id="@+id/bubbleView"
-       app:text_content="点击设为壁纸"
+       app:text_content="这是一个气泡"
        app:text_size="15dp"
        app:is_arrow_up="true"
        app:padding_in="18.3dp"
@@ -22,29 +22,4 @@
        android:alpha="0"
        />
 
-<!--   <com.example.mybubbleview.BubbleView1-->
-<!--       app:layout_constraintLeft_toLeftOf="parent"-->
-<!--       app:layout_constraintTop_toTopOf="parent"-->
-<!--       android:layout_marginTop="100dp"-->
-<!--       android:layout_width="100dp"-->
-<!--       android:layout_height="500dp"-->
-<!--       android:layout_marginLeft="200dp"-->
-<!--       />-->
-<!--   <Button-->
-<!--      android:text="点击"-->
-<!--       android:layout_marginLeft="200dp"-->
-<!--       android:layout_marginTop="200dp"-->
-<!--       app:layout_constraintLeft_toLeftOf="parent"-->
-<!--       app:layout_constraintTop_toTopOf="parent"-->
-<!--       android:layout_width="100dp"-->
-<!--       android:layout_height="50dp"/>-->
-<!--   <com.example.mybubbleview.CircleProgress-->
-<!--       app:layout_constraintLeft_toLeftOf="parent"-->
-<!--       app:layout_constraintTop_toTopOf="parent"-->
-<!--       android:layout_marginLeft="100dp"-->
-<!--       android:padding="10dp"-->
-<!--       android:id="@+id/mCircleProgress"-->
-<!--       android:layout_width="100dp"-->
-<!--       android:layout_height="100dp"-->
-<!--       app:stroke_width1="8dp"/>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
